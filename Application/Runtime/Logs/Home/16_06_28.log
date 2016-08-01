@@ -1,0 +1,341 @@
+[ 2016-06-28T18:21:39+08:00 ] ::1 /easysocial/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-06-28T18:23:21+08:00 ] ::1 /easysocial/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-06-28T18:23:44+08:00 ] ::1 /easysocial/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+ERR: SQLSTATE[HY000] [1049] Base 'easysocial' inconnue
+
+[ 2016-06-28T18:25:22+08:00 ] ::1 /easysocial/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `test`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-06-28T18:29:21+08:00 ] ::1 /easysocial/index.php/Home/User/login?email=740514999@qq.com&passowrd=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined index: password D:\www\easysocial\Application\Home\Controller\UserController.class.php 第 12 行.
+
+[ 2016-06-28T18:33:00+08:00 ] ::1 /easysocial/index.php/Home/User/login?email=740514999@qq.com&passowrd=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Undefined index: password D:\www\easysocial\Application\Home\Controller\UserController.class.php 第 12 行.
+
+[ 2016-06-28T18:33:00+08:00 ] ::1 /easysocial/index.php/Home/User/login?email=740514999@qq.com&passowrd=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] Undefined index: password D:\www\easysocial\Application\Home\Controller\UserController.class.php 第 12 行.
+
+[ 2016-06-28T18:33:39+08:00 ] ::1 /easysocial/index.php/Home/User/login?email=740514999@qq.com&passowrd=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] Undefined index: password D:\www\easysocial\Application\Home\Controller\UserController.class.php 第 12 行.
+
+[ 2016-06-28T18:33:45+08:00 ] ::1 /easysocial/index.php/Home/User/login?email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( email = '740514999@qq.com' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `account` WHERE ( email = '740514999@qq.com' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-28T18:34:52+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=Necrom&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( username='Necrom' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `account` (`username`,`realname`,`email`,`password`,`gender`,`avatar`) VALUES ('Necrom','SaassKope','740514999@qq.com','1qa2ws','1','') [ RunTime:0.0109s ]
+
+[ 2016-06-28T18:35:56+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=Necrom&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( username='Necrom' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `account` (`username`,`realname`,`email`,`password`,`gender`,`avatar`) VALUES ('Necrom','SaassKope','740514999@qq.com','1qa2ws','1','') [ RunTime:0.0004s ]
+
+[ 2016-06-28T18:35:56+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=Necrom&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( username='Necrom' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `account` (`username`,`realname`,`email`,`password`,`gender`,`avatar`) VALUES ('Necrom','SaassKope','740514999@qq.com','1qa2ws','1','') [ RunTime:0.0003s ]
+
+[ 2016-06-28T18:35:56+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=Necrom&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( username='Necrom' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `account` (`username`,`realname`,`email`,`password`,`gender`,`avatar`) VALUES ('Necrom','SaassKope','740514999@qq.com','1qa2ws','1','') [ RunTime:0.0002s ]
+
+[ 2016-06-28T18:35:56+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=Necrom&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( username='Necrom' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `account` (`username`,`realname`,`email`,`password`,`gender`,`avatar`) VALUES ('Necrom','SaassKope','740514999@qq.com','1qa2ws','1','') [ RunTime:0.0002s ]
+
+[ 2016-06-28T18:37:59+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=Necrom&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( username='Necrom' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `account` (`username`,`realname`,`email`,`password`,`signature`,`gender`,`avatar`) VALUES ('Necrom','SaassKope','740514999@qq.com','1qa2ws','','1','') [ RunTime:0.0003s ]
+
+[ 2016-06-28T18:38:16+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=Necrom&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( username='Necrom' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `account` (`username`,`realname`,`email`,`password`,`signature`,`gender`,`avatar`) VALUES ('Necrom','SaassKope','740514999@qq.com','1qa2ws','','1','') [ RunTime:0.0002s ]
+
+[ 2016-06-28T18:39:10+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=Necrom&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( username='Necrom' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `account` (`username`,`realname`,`email`,`password`,`signature`,`gender`,`avatar`) VALUES ('Necrom','SaassKope','740514999@qq.com','1qa2ws','','1','') [ RunTime:0.0003s ]
+
+[ 2016-06-28T18:39:21+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=Necrom&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-06-28T18:40:20+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=gaoyy&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( username='gaoyy' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-28T18:41:05+08:00 ] ::1 /easysocial/index.php/Home/User/register?username=Necrom&realname=SaassKope&email=740514999@qq.com&password=1qa2ws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( username='Necrom' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `account` (`username`,`realname`,`email`,`password`,`signature`,`gender`,`avatar`) VALUES ('Necrom','SaassKope','740514999@qq.com','1qa2ws','','1','') [ RunTime:0.0003s ]
+
+[ 2016-06-28T18:53:23+08:00 ] ::1 /easysocial/index.php/Home/User/Public?pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+ERR: 非法操作:Public
+
+[ 2016-06-28T18:53:34+08:00 ] ::1 /easysocial/index.php/Home/Public/showTweet?pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0062s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:La table 'easysocial.favorite' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `favorite`
+ERR: 1146:La table 'easysocial.favorite' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `favorite`
+
+[ 2016-06-28T19:09:48+08:00 ] ::1 /easysocial/index.php/Home/Public/showTweet?pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0057s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-28T19:17:46+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet?pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0061s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-28T19:19:35+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet?pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0054s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+

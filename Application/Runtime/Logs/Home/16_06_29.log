@@ -1,0 +1,2414 @@
+[ 2016-06-29T10:42:10+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008561s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0051s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:42:11+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0036s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T10:51:37+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0052s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:51:47+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0047s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T10:52:14+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0052s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:52:15+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0054s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:52:20+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0059s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:52:41+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0053s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:52:55+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0053s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:52:55+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0032s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T10:53:16+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0054s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:55:04+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet?pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0059s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:55:05+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet?pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0057s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:55:49+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0067s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:55:55+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0058s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:57:51+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 15 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: isPersonal D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0052s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: isFavor D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-06-29T10:57:54+08:00 ] 192.168.11.117 /easysocial/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE ( email = '740514999@qq.com' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `account` WHERE ( email = '740514999@qq.com' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T10:58:02+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 83 行.
+NOTIC: [8] Undefined index: tid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0179s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid= ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid= ) LIMIT 1  
+
+[ 2016-06-29T10:58:02+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 83 行.
+NOTIC: [8] Undefined index: tid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0039s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid= ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid= ) LIMIT 1  
+
+[ 2016-06-29T10:59:58+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0064s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T10:59:58+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0036s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:00:08+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0054s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:00:08+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0041s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:04:08+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019747s ]
+
+[ 2016-06-29T11:06:52+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0124s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:06:52+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0038s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:06:55+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0039s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0009s ]
+
+[ 2016-06-29T11:06:56+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:07:08+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0089s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('7','1','0','倒霉熊','2016-06-29 11:07:08') [ RunTime:0.0004s ]
+
+[ 2016-06-29T11:07:09+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0041s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:07:11+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0041s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 5,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:07:20+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0079s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('7','1','1','魔法禁书','2016-06-29 11:07:20') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:07:20+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0033s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 5,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0006s ]
+
+[ 2016-06-29T11:07:23+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0042s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0011s ]
+
+[ 2016-06-29T11:07:24+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0051s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 5,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:07:31+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0082s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('7','1','1','好饿DJ具体','2016-06-29 11:07:31') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:07:31+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 5,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0009s ]
+
+[ 2016-06-29T11:07:36+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0042s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0010s ]
+
+[ 2016-06-29T11:07:38+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0034s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 5,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0006s ]
+
+[ 2016-06-29T11:07:46+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0079s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('7','1','1','理解理解','2016-06-29 11:07:46') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:07:46+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0045s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 5,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:07:56+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0051s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T11:07:58+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/doFavor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0081s ]
+SQL: INSERT INTO `favorite` (`aid`,`tid`,`isfavor`) VALUES ('1','7','1') [ RunTime:0.0004s ]
+
+[ 2016-06-29T11:08:05+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/doFavor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0308s ]
+SQL: INSERT INTO `favorite` (`aid`,`tid`,`isfavor`) VALUES ('1','6','1') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:08:24+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0534s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('6','1','0','阿桔','2016-06-29 11:08:23') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:08:26+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0034s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0006s ]
+
+[ 2016-06-29T11:08:27+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0073s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:08:28+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0037s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 5,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0008s ]
+
+[ 2016-06-29T11:08:35+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0083s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('6','1','1','愿意','2016-06-29 11:08:35') [ RunTime:0.0004s ]
+
+[ 2016-06-29T11:08:35+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0038s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 5,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0009s ]
+
+[ 2016-06-29T11:12:34+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0036s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:12:34+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0032s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:12:37+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0036s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 5,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0006s ]
+
+[ 2016-06-29T11:12:43+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-06-29T11:12:43+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0071s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.1981s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:12:44+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0080s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T11:12:48+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-06-29T11:12:48+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0057s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:12:49+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0094s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T11:13:58+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0246s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:14:04+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0054s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T11:14:46+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0063s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T11:14:47+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0267s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0035s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:15:12+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0059s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:15:12+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0853s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0036s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T11:16:57+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0284s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0057s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0209s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T11:21:45+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0286s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0037s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0008s ]
+
+[ 2016-06-29T11:21:46+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0174s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0011s ]
+
+[ 2016-06-29T11:21:51+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0078s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('7','1','0','八菱科技','2016-06-29 11:21:51') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:21:51+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0042s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0009s ]
+
+[ 2016-06-29T11:22:05+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0137s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('7','1','0','古巨基','2016-06-29 11:22:04') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:22:05+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0037s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:32:34+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0548s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0066s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:32:36+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0820s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0303s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0038s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T11:32:40+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0009s ]
+
+[ 2016-06-29T11:32:46+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0034s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:32:55+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0084s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('7','1','0','佛祖','2016-06-29 11:32:55') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:33:01+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0034s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0008s ]
+
+[ 2016-06-29T11:33:11+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0079s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('7','1','1','啊路哈去看','2016-06-29 11:33:11') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:33:16+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0037s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0008s ]
+
+[ 2016-06-29T11:33:30+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0034s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:33:40+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0077s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('7','1','1','IP啊路佛祖YY域名','2016-06-29 11:33:40') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:33:43+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0601s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0037s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=7 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0009s ]
+
+[ 2016-06-29T11:36:39+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0235s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0205s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0012s ]
+
+[ 2016-06-29T11:36:46+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0009s ]
+
+[ 2016-06-29T11:36:50+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0056s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:36:50+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0034s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:36:53+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0051s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0008s ]
+
+[ 2016-06-29T11:36:53+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0035s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:37:01+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0074s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('6','1','1','每月','2016-06-29 11:37:00') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:37:01+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0035s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:37:07+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0075s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('6','1','0','人数','2016-06-29 11:37:07') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:37:07+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0032s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0007s ]
+
+[ 2016-06-29T11:37:13+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0076s ]
+SQL: INSERT INTO `comment` (`tid`,`aid`,`pid`,`comment`,`time`) VALUES ('6','1','1','嗨喽','2016-06-29 11:37:12') [ RunTime:0.0003s ]
+
+[ 2016-06-29T11:37:13+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0036s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0009s ]
+
+[ 2016-06-29T11:48:27+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showCommentList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT t.*,account.username as pusername FROM ( SELECT * FROM ( SELECT a.cid,a.tid,a.aid,a.pid,a.comment,b.username,b.avatar,a.time FROM comment as a,account as b WHERE ( a.tid=6 and a.aid = b.aid ) ORDER BY a.cid desc  )as a LIMIT 0,5   )as t LEFT JOIN account ON t.pid = account.aid  ORDER BY t.cid desc  [ RunTime:0.0009s ]
+
+[ 2016-06-29T11:48:44+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-06-29T11:48:44+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0060s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T11:48:44+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0037s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:31:13+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-06-29T12:31:14+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0057s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:31:14+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0038s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:31:51+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 107 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0169s ]
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid =  ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid =  ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:34:46+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0059s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T12:34:49+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0086s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T12:37:39+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-06-29T12:37:39+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0052s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:37:41+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0077s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:38:37+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0063s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:38:39+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0036s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:39:04+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-06-29T12:39:04+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0053s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:39:23+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0172s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:40:13+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.3177s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.1551s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:40:15+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0034s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T12:40:31+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-06-29T12:40:31+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0053s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T12:40:49+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0076s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:41:51+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0056s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid  ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T12:41:51+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweetRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0036s ]
+SQL: SELECT a.*,b.* FROM tweet as a,account as b WHERE ( a.aid = b.aid )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T12:42:00+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-06-29T12:42:00+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0069s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:42:00+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0041s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:42:17+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-06-29T12:42:17+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0060s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T12:42:18+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0046s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:43:23+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-06-29T12:43:24+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0059s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:43:24+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0039s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:43:30+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 107 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0227s ]
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid =  ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid =  ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:44:18+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 107 行.
+NOTIC: [8] Undefined index: aid D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0117s ]
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid =  ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid =  ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:45:32+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-06-29T12:45:32+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0055s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:45:32+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0041s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:45:42+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 107 行.
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0127s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:46:29+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined index: pageNum D:\www\easysocial\Application\Home\Controller\PublicController.class.php 第 107 行.
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0079s ]
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+ERR: 1054:Champ 'favorite.time' inconnu dans field list
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1  
+
+[ 2016-06-29T12:48:27+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-06-29T12:48:27+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0057s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-29T12:48:28+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.content as to_content,b.picture as to_picture FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0058s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `avatar` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `avatar` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `avatar` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:49:06+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/getCountInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-06-29T12:49:06+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showTweet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `tweet` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0056s ]
+SQL: SELECT a.*,b.tid,b.content,b.picture,b.create_time FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM account as a,tweet as b WHERE ( a.aid = b.aid and b.aid = 1 ) ORDER BY b.tid LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 7 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 4 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `favorite` WHERE ( tid = 2 and isfavor = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( tid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `isfavor` FROM `favorite` WHERE ( aid=1 and tid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-29T12:49:06+08:00 ] 192.168.11.117 /easysocial/index.php/Home/Public/showFavList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.content as to_content,b.picture as to_picture FROM ( SELECT favorite.fid,favorite.tid as to_tid,favorite.aid as from_aid,tweet.aid as to_aid,favorite.time FROM `favorite` LEFT JOIN tweet ON tweet.tid = favorite.tid  WHERE ( tweet.aid = 1 ) ORDER BY favorite.fid desc   )as a,tweet as b WHERE ( a.to_tid = b.tid ) LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0032s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `avatar` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `avatar` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `avatar` FROM `account` WHERE ( aid = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+
