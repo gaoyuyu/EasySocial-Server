@@ -11,9 +11,9 @@ class IndexController extends Controller
 //        dump($a->select());
 
     $ch = curl_init();
-    $url = 'http://apis.baidu.com/dmxy/truevideourl/truevideourl?url=http://v.youku.com/v_show/id_XMTY1MjU5NzI5Ng==.html';
+    $url = 'http://apis.baidu.com/dmxy/truevideourl/truevideourl?url=http://weibo.com/p/2304443c2de03adc2570fd7bf91ded9d2a675b';
     $header = array(
-        'apikey: 395d5a724c3a77d83336f2a4afa9f765',
+        'apikey: ',
     );
     // 添加apikey到header
     curl_setopt($ch, CURLOPT_HTTPHEADER  , $header);
