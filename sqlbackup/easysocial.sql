@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2016-08-01 13:06:21
+Date: 2016-08-10 11:39:22
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -50,31 +50,11 @@ CREATE TABLE `comment` (
   `comment` varchar(255) DEFAULT NULL,
   `time` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`cid`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of comment
 -- ----------------------------
-INSERT INTO `comment` VALUES ('1', '7', '1', '0', '倒霉熊', '2016-06-29 11:07:08');
-INSERT INTO `comment` VALUES ('2', '7', '1', '1', '魔法禁书', '2016-06-29 11:07:20');
-INSERT INTO `comment` VALUES ('3', '7', '1', '1', '好饿DJ具体', '2016-06-29 11:07:31');
-INSERT INTO `comment` VALUES ('4', '7', '1', '1', '理解理解', '2016-06-29 11:07:46');
-INSERT INTO `comment` VALUES ('5', '6', '1', '0', '阿桔', '2016-06-29 11:08:23');
-INSERT INTO `comment` VALUES ('6', '6', '1', '1', '愿意', '2016-06-29 11:08:35');
-INSERT INTO `comment` VALUES ('7', '7', '1', '0', '八菱科技', '2016-06-29 11:21:51');
-INSERT INTO `comment` VALUES ('8', '7', '1', '0', '古巨基', '2016-06-29 11:22:04');
-INSERT INTO `comment` VALUES ('9', '7', '1', '0', '佛祖', '2016-06-29 11:32:55');
-INSERT INTO `comment` VALUES ('10', '7', '1', '1', '啊路哈去看', '2016-06-29 11:33:11');
-INSERT INTO `comment` VALUES ('11', '7', '1', '1', 'IP啊路佛祖YY域名', '2016-06-29 11:33:40');
-INSERT INTO `comment` VALUES ('12', '6', '1', '1', '每月', '2016-06-29 11:37:00');
-INSERT INTO `comment` VALUES ('13', '6', '1', '0', '人数', '2016-06-29 11:37:07');
-INSERT INTO `comment` VALUES ('14', '6', '1', '1', '嗨喽', '2016-06-29 11:37:12');
-INSERT INTO `comment` VALUES ('15', '9', '1', '0', 'hey,bro~', '2016-07-25 18:44:01');
-INSERT INTO `comment` VALUES ('16', '9', '1', '1', 'got you,yoyo', '2016-07-25 18:44:11');
-INSERT INTO `comment` VALUES ('17', '8', '1', '0', 'hello', '2016-07-25 18:44:41');
-INSERT INTO `comment` VALUES ('18', '8', '1', '1', 'io', '2016-07-25 18:44:48');
-INSERT INTO `comment` VALUES ('19', '6', '1', '1', 'kokokokokoko', '2016-07-25 19:25:00');
-INSERT INTO `comment` VALUES ('20', '9', '1', '0', 'op', '2016-08-01 11:09:00');
 
 -- ----------------------------
 -- Table structure for `favorite`
@@ -87,27 +67,11 @@ CREATE TABLE `favorite` (
   `isfavor` int(11) DEFAULT '0' COMMENT '是否点赞 0-否 1-是',
   `time` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`fid`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of favorite
 -- ----------------------------
-INSERT INTO `favorite` VALUES ('1', '1', '1', '1', '2016-06-29 11:07:08');
-INSERT INTO `favorite` VALUES ('2', '2', '1', '1', '2016-06-29 11:07:08');
-INSERT INTO `favorite` VALUES ('3', '3', '1', '1', '2016-06-29 11:07:08');
-INSERT INTO `favorite` VALUES ('4', '4', '1', '1', '2016-06-29 11:07:08');
-INSERT INTO `favorite` VALUES ('5', '7', '1', '1', '2016-06-29 11:07:08');
-INSERT INTO `favorite` VALUES ('6', '6', '1', '1', '2016-06-29 11:07:08');
-INSERT INTO `favorite` VALUES ('7', '8', '1', '1', '2016-07-25 18:45:07');
-INSERT INTO `favorite` VALUES ('8', '9', '1', '1', '2016-07-26 17:09:04');
-INSERT INTO `favorite` VALUES ('9', '9', '1', '1', '2016-07-26 17:09:20');
-INSERT INTO `favorite` VALUES ('10', '9', '1', '1', '2016-07-26 17:09:23');
-INSERT INTO `favorite` VALUES ('11', '9', '1', '1', '2016-07-26 17:09:25');
-INSERT INTO `favorite` VALUES ('12', '9', '1', '1', '2016-07-26 17:09:26');
-INSERT INTO `favorite` VALUES ('13', '9', '1', '1', '2016-07-26 17:09:27');
-INSERT INTO `favorite` VALUES ('14', '9', '1', '1', '2016-07-26 17:09:28');
-INSERT INTO `favorite` VALUES ('15', '9', '1', '1', '2016-07-26 17:09:29');
-INSERT INTO `favorite` VALUES ('16', '9', '1', '1', '2016-07-26 17:15:53');
 
 -- ----------------------------
 -- Table structure for `test`
@@ -136,20 +100,20 @@ CREATE TABLE `tweet` (
   `pic_width` varchar(255) DEFAULT NULL COMMENT '图片宽度',
   `pic_height` varchar(255) DEFAULT NULL COMMENT '图片高度',
   PRIMARY KEY (`tid`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of tweet
 -- ----------------------------
-INSERT INTO `tweet` VALUES ('1', '11', '两个人相处久了，难免会抱怨一句 你变了。其实，我们并没有改变，我们只是越来越接近真实的对方而已。', 'http://192.168.11.117/easysocial/Public/tweetpic/4cf73f9782d48ee462278860227a0341.jpeg', '2016-06-28 15:15:37', '800', '600');
-INSERT INTO `tweet` VALUES ('2', '1', '等不起的人就不要等了，你的痴情感动不了一个不爱你的人。伤害你的不是对方的绝情，而是你心存幻想的坚持。勇敢点，转个身！你必须放弃一些东西，才能获得更圆满的自己！', 'http://192.168.11.117/easysocial/Public/tweetpic/14e577c439bc1ef48ca12764a36b7201.jpg', '2016-06-28 15:15:37', '800', '600');
-INSERT INTO `tweet` VALUES ('3', '2', '给自己一些时间 。原谅做过很多傻事的自己 。接受自己，爱自己 。过去的都会过去，该来的都在路上 。', 'http://192.168.11.117/easysocial/Public/tweetpic/77f4fc7d6a20747826a0570019bfded1.jpeg', '2016-06-28 15:15:37', '800', '600');
-INSERT INTO `tweet` VALUES ('4', '1', '其实，一件事，就算再美好，一旦没有结果，就不要再纠缠，久了你会倦，会累，如果抓不住，那么你就要适时放手，久了你会神伤，会心碎。任何事，任何人，都会成为过去。', 'http://192.168.11.117/easysocial/Public/tweetpic/1362381110802.jpg', '2016-06-28 15:15:37', '800', '600');
-INSERT INTO `tweet` VALUES ('5', '2', '不要散布你的困惑和苦厄，更不要炫耀你的幸福和喜乐。那只会使它们变得廉价。做个有骨气的人，戴一副合法的表情，纵有千言万语，只与自己说。', 'http://192.168.11.117/easysocial/Public/tweetpic/1449040049226.jpg', '2016-06-28 15:15:37', '800', '600');
-INSERT INTO `tweet` VALUES ('6', '11', '所谓“聊得来”的深层含义其实是：读懂你的内心，听懂你的说话，与你的见识同步，配得上你的好，并能互相给予慰藉、理解和力量。', 'http://192.168.11.117/easysocial/Public/tweetpic/1451887997800.jpg', '2016-06-28 15:15:37', '800', '600');
-INSERT INTO `tweet` VALUES ('7', '1', '避免失望的最好办法，就是不寄希望于任何人、任何事。期待，是所有心痛的根源，心不动，则不痛。', 'http://192.168.11.117/easysocial/Public/tweetpic/cee6f6bd9fcd889c5e075447562b71e4.jpg', '2016-06-28 15:15:37', '800', '600');
-INSERT INTO `tweet` VALUES ('8', '1', 'Success', 'http://192.168.11.117/easysocial/Public/tweetpic/1469438692_917394980.jpg', '2016-07-25 17:24:52', '1536', '1280');
-INSERT INTO `tweet` VALUES ('9', '1', 'Brige', 'http://192.168.11.117/easysocial/Public/tweetpic/1469438927_523438719.jpg', '2016-07-25 17:28:47', '1536', '1280');
+INSERT INTO `tweet` VALUES ('8', '1', '两个人相处久了，难免会抱怨一句 你变了。其实，我们并没有改变，我们只是越来越接近真实的对方而已。', 'http://192.168.11.117/easysocial/Public/tweetpic/1469438692_917394980.jpg', '2016-07-25 17:24:52', '1536', '1280');
+INSERT INTO `tweet` VALUES ('9', '1', '等不起的人就不要等了，你的痴情感动不了一个不爱你的人。伤害你的不是对方的绝情，而是你心存幻想的坚持。勇敢点，转个身！你必须放弃一些东西，才能获得更圆满的自己！', 'http://192.168.11.117/easysocial/Public/tweetpic/1469438927_523438719.jpg', '2016-07-25 17:28:47', '1536', '1280');
+INSERT INTO `tweet` VALUES ('10', '1', '给自己一些时间 。原谅做过很多傻事的自己 。接受自己，爱自己 。过去的都会过去，该来的都在路上 。', 'http://192.168.11.117/easysocial/Public/tweetpic/1470216179_20356328.jpg', '2016-08-03 17:22:59', '1536', '1280');
+INSERT INTO `tweet` VALUES ('11', '1', '所谓“聊得来”的深层含义其实是：读懂你的内心，听懂你的说话，与你的见识同步，配得上你的好，并能互相给予慰藉、理解和力量。', 'http://192.168.11.117/easysocial/Public/tweetpic/1470216199_1558796710.jpg', '2016-08-03 17:23:19', '1536', '1280');
+INSERT INTO `tweet` VALUES ('12', '1', '不要散布你的困惑和苦厄，更不要炫耀你的幸福和喜乐。那只会使它们变得廉价。做个有骨气的人，戴一副合法的表情，纵有千言万语，只与自己说。', 'http://192.168.11.117/easysocial/Public/tweetpic/1470216213_1565239428.jpg', '2016-08-03 17:23:33', '1536', '1280');
+INSERT INTO `tweet` VALUES ('13', '1', '避免失望的最好办法，就是不寄希望于任何人、任何事。期待，是所有心痛的根源，心不动，则不痛。', 'http://192.168.11.117/easysocial/Public/tweetpic/1470216225_1654883851.jpg', '2016-08-03 17:23:45', '1536', '1280');
+INSERT INTO `tweet` VALUES ('14', '1', '在一段感情中最心酸的事便是：对方已经决定跟你分手了，只是还没想好充分的理由，而你却还在计划着两个人下一步。然而更心酸的是，在你发现这个事实之前，你还在懊恼，还以为是自己没有更好的珍惜。', 'http://192.168.11.117/easysocial/Public/tweetpic/1470216241_739143559.jpg', '2016-08-03 17:24:01', '1536', '1280');
+INSERT INTO `tweet` VALUES ('15', '1', '陪伴与懂得， 比爱情更加重要。一个人最幸福的时刻，就是找对了人，他宠着你、纵容你并深爱着你的一切。', 'http://192.168.11.117/easysocial/Public/tweetpic/1470216252_1967360581.jpg', '2016-08-03 17:24:12', '1536', '1280');
+INSERT INTO `tweet` VALUES ('16', '1', '抱抱你的电水壶吧，一直为你烧水喝，你却只会把杯子捧在手心里。它还不能想不开，不开了你会觉得它有毛病。', 'http://192.168.11.117/easysocial/Public/tweetpic/1470216262_2092963766.jpg', '2016-08-03 17:24:22', '1536', '1280');
 
 -- ----------------------------
 -- Table structure for `video`
@@ -166,8 +130,8 @@ CREATE TABLE `video` (
 -- ----------------------------
 -- Records of video
 -- ----------------------------
-INSERT INTO `video` VALUES ('1', '未知小电影', 'http://data.vod.itc.cn/?new=/134/254/8qoaCXUIovFdt1gLOlJitB.mp4&vid=1001883384&plat=17&mkey=zODjT9WGnUfZSPKp9b0wPn3fyI5KBNUV&ch=tv&prod=app', '2016-06-29 11:07:08');
-INSERT INTO `video` VALUES ('2', '妈妈走进房间后发现儿子在做那种事时应该怎么办？主持人给出了爆笑的回答', 'http://us.sinaimg.cn/001fZzKOjx073DrC9y7605040100b5DL0k01.mp4?KID=unistore,video&Expires=1470029221&ssig=LTKXRr4bU7', '2016-06-29 11:07:08');
-INSERT INTO `video` VALUES ('3', '央视直播失误集锦第三季，全程高能！', 'http://us.sinaimg.cn/000zgUDLjx073rUeYtNJ05040100uDa80k01.mp4?KID=unistore,video&Expires=1470026703&ssig=%2BrIKmaytim', '2016-06-29 11:07:08');
-INSERT INTO `video` VALUES ('4', '校园疯狂版咋了爸爸，跳的不错哦！', 'http://us.sinaimg.cn/002OsU4ajx073vQs0VqL05040100Et8k0k01.mp4?KID=unistore,video&Expires=1470026639&ssig=tXrN7ODuMf', '2016-06-29 11:07:08');
-INSERT INTO `video` VALUES ('5', '美国纽约一爱狗女网友养了两只哈士奇，可是最近却很头疼…每天早上准备出门上班，两只二哈早已经把大门死死堵住，不让主人出门…一看主人出来就嗷嗷大叫…二哈：从我身上踩过吧…', 'http://us.sinaimg.cn/000OAczajx0713ujqOPt010401001CBJ0k01.mp4?KID=unistore,video&Expires=1470030067&ssig=9j1yinIBOq', '2016-06-29 11:07:08');
+INSERT INTO `video` VALUES ('1', '【发现最热视频】没穿就糗大了！超市门口cos玛丽莲梦露_标清', 'http://192.168.11.117/easysocial/Public/video/a.mp4', '2016-06-29 11:07:08');
+INSERT INTO `video` VALUES ('2', '【大哥太会享受了，身体受得了吗？】搞笑视频 搞笑集锦 笑死人不偿命_标清', 'http://192.168.11.117/easysocial/Public/video/b.flv', '2016-06-29 11:07:08');
+INSERT INTO `video` VALUES ('3', '搞笑视频笑死人：国外失误集锦搞笑视频傻缺剪辑（01）_标清', 'http://192.168.11.117/easysocial/Public/video/c.flv', '2016-06-29 11:07:08');
+INSERT INTO `video` VALUES ('4', '【妹子第一次看A V的反应简直太可 耻了】幽默搞笑视频  傻缺恶搞吐槽视频  笑死人不偿命！ 小破孩驾到第90期_高清', 'http://192.168.11.117/easysocial/Public/video/d.mp4', '2016-06-29 11:07:08');
+INSERT INTO `video` VALUES ('5', '【和美女玩刺激的游戏，输了就的脱衣服】搞笑视频 傻缺集锦 幽默搞笑吐槽 国外恶搞_高清', 'http://192.168.11.117/easysocial/Public/video/e.mp4', '2016-06-29 11:07:08');
