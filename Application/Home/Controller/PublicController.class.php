@@ -7,8 +7,10 @@ use Think\Log;
 
 class PublicController extends ApplicationController
 {
-    private $TWEET_PIC_URL = "http://192.168.11.117/easysocial/Public/tweetpic/";
-    private $AVATAR_PIC_URL = "http://192.168.11.117/easysocial/Public/avatar/";
+
+    private static $TWEET_PIC_URL = "http://192.168.11.117/easysocial/Public/tweetpic/";
+    private static $AVATAR_PIC_URL = "http://192.168.11.117/easysocial/Public/avatar/";
+    private static $DIR = "./Public/apk";
 
 
     public function showTweet()
@@ -75,7 +77,6 @@ class PublicController extends ApplicationController
         {
             $pageCount = (int)($total / $pagePer + 1);
         }
-
         return $pageCount;
     }
 
@@ -139,11 +140,13 @@ class PublicController extends ApplicationController
 
     public function reply()
     {
+
         $replyContent = $_POST['replyContent'];
         $replyTweet = $_POST['replyTweet'];
         $replyTo = $_POST['replyTo'];
         $replyFrom = $_POST['replyFrom'];
         $cm = M("comment");
+        $fm = M("favorite");
         $cm->startTrans();
 
         $comment = array(
@@ -161,7 +164,15 @@ class PublicController extends ApplicationController
         } else
         {
             $cm->commit();
-            $this->returnResponseOK("回复成功");
+            $favCount = $fm->where(" tid = {$replyTweet}")->count();
+            $comCount = $cm->where(" tid = {$replyTweet}")->count();
+            $isfavor = $fm->where("tid = {$replyTweet}")->getField("isfavor");
+            $data = array(
+                "favCount" => $favCount,
+                "comCount" => $comCount,
+                "isfavor" => $isfavor,
+            );
+            $this->returnResponseOK($data);
         }
     }
 
@@ -221,7 +232,7 @@ class PublicController extends ApplicationController
             $this->returnResponseError("图片上传失败");
         } else
         {
-            $this->returnResponseOK($this->AVATAR_PIC_URL . $info["savename"]);
+            $this->returnResponseOK(self::$AVATAR_PIC_URL . $info["savename"]);
         }
     }
 
@@ -290,7 +301,7 @@ class PublicController extends ApplicationController
         } else
         {
             $size = getimagesize("." . $info["savepath"] . $info["savename"]);
-            $picture = $this->TWEET_PIC_URL . $info["savename"];
+            $picture = self::$TWEET_PIC_URL . $info["savename"];
             $tweet = array(
                 "aid" => $aid,
                 "content" => $content,
@@ -413,6 +424,12 @@ class PublicController extends ApplicationController
             );
             $this->returnResponseOK($repData);
         }
+    }
+
+    public function scanPlugin()
+    {
+        $dir = scanFile(self::$DIR);
+        $this->returnResponseOK($dir);
     }
 
 }
